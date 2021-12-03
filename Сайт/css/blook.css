@@ -1,0 +1,66 @@
+#blook{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+
+#blook-main{
+    float: left;
+    border-radius: 5px;
+    background-color: black;
+    border-style: ridge;
+    border-width: 1px;
+    border-color:#e8e9e9;
+    margin: 25px;
+    padding:10px ;
+    width:510px;
+    height:260px; 
+}
+
+.img-main {
+    width:510px;
+    height:200px;
+}
+
+#good-title{
+    width:476px;
+    height:29px;
+    /*padding-bottom: 27px;*/
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;  
+}
+
+
+
+
+#good-title a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#good-title a, #good-title a:visited {color: #9d999d;}
+#good-title a.current, #good-title a:hover{color: #feb386;}
+#good-title a:before,
+#good-title a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: 0px;
+    left: 50%;
+    background: #feb386;
+    transition: .8s;
+   
+}
+#good-title a:hover:before, #good-title .current:before {left: 0;}
+#good-title a:hover:after, #good-title .current:after {right: 0;}

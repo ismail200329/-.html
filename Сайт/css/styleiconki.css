@@ -1,0 +1,25 @@
+
+
+.fab{
+    position: relative;
+    color: #9d999d;
+    top: 10px;
+   
+    font-size: 25px;
+    height: 35px;
+   
+}
+.fa{
+    position: absolute;
+    color: #9d999d;
+    left: 5px;
+    font-size: 18px;
+}
+.tel{
+    position: relative;
+    color: #9d999d;
+    top: 10px;
+    
+    font-size: 25px;
+    height: 35px;
+}
